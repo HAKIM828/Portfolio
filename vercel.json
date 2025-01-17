@@ -6,14 +6,14 @@
     { "source": "/home", "destination": "/index.html" },
     { "source": "/resume", "destination": "/resume.html" },
     { "source": "/services", "destination": "/services.html" },
-    { "source": "/portfolio-details", "destination": "portfolio-details.html" },
-    { "source": "/portfolio-details2", "destination": "portfolio-details2.html" },
-    { "source": "/portfolio-details3", "destination": "portfolio-details3.html" },
-    { "source": "/portfolio-details4", "destination": "portfolio-details4.html" },
-    { "source": "/portfolio-details5", "destination": "portfolio-details5.html" },
-    { "source": "/portfolio-details6", "destination": "portfolio-details6.html" },
-    { "source": "/portfolio-details7", "destination": "portfolio-details7.html" },
-    { "source": "/portfolio-details8", "destination": "portfolio-details8.html" },
-    { "source": "/portfolio-details9", "destination": "portfolio-details9.html" }
+    { "source": "/portfolio-details-1", "destination": "portfolio-details.html" },
+    { "source": "/portfolio-details-2", "destination": "portfolio-details2.html" },
+    { "source": "/portfolio-details-3", "destination": "portfolio-details3.html" },
+    { "source": "/portfolio-details-4", "destination": "portfolio-details4.html" },
+    { "source": "/portfolio-details-5", "destination": "portfolio-details5.html" },
+    { "source": "/portfolio-details-6", "destination": "portfolio-details6.html" },
+    { "source": "/portfolio-details-7", "destination": "portfolio-details7.html" },
+    { "source": "/portfolio-details-8", "destination": "portfolio-details8.html" },
+    { "source": "/portfolio-details-9", "destination": "portfolio-details9.html" }
   ]
 }
