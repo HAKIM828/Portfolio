@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/portfolio", "destination": "/portfolio.html" },
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/resume", "destination": "/resume.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/portfolio-details", "destination": "portfolio-details.html" },
+    { "source": "/portfolio-details2", "destination": "portfolio-details2.html" },
+    { "source": "/portfolio-details3", "destination": "portfolio-details3.html" },
+    { "source": "/portfolio-details4", "destination": "portfolio-details4.html" },
+    { "source": "/portfolio-details5", "destination": "portfolio-details5.html" },
+    { "source": "/portfolio-details6", "destination": "portfolio-details6.html" },
+    { "source": "/portfolio-details7", "destination": "portfolio-details7.html" },
+    { "source": "/portfolio-details8", "destination": "portfolio-details8.html" },
+    { "source": "/portfolio-details9", "destination": "portfolio-details9.html" }
+  ]
+}
