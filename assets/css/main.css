@@ -160,6 +160,20 @@ h6 {
   margin-right: 8px;
 }
 
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .header .logo img {
+    width: 200px; /* Make the logo smaller for mobile */
+    height: auto;
+  }
+}
+
+
+
+
 .header .logo h1 {
   font-size: 30px;
   margin: 0;
