@@ -29,21 +29,6 @@
 
 
 </head>
-<script>
-  function calculateAge(birthDate) {
-    const today = new Date();
-    const birth = new Date(birthDate);
-    let age = today.getFullYear() - birth.getFullYear();
-    const m = today.getMonth() - birth.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
-      age--;
-    }
-    return age;
-  }
-
-  const myBirthDate = '2001-11-27'; // 27 November 2001
-  document.getElementById('age').textContent = calculateAge(myBirthDate);
-</script>
 
 <body class="about-page">
 
