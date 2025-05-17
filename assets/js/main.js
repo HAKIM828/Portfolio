@@ -22,6 +22,32 @@
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
 
+    /**
+   * Init isotope layout and filters
+   */
+  document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
+    // ... isotope code ...
+  });
+
+
+  
+  // ⭐⭐ INSERT THE AGE CODE HERE ⭐⭐
+  const myBirthDate = '2001-11-27';
+  const ageElement = document.getElementById('age');
+  if (ageElement) {
+    const today = new Date();
+    const birth = new Date(myBirthDate);
+    let age = today.getFullYear() - birth.getFullYear();
+    const m = today.getMonth() - birth.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+      age--;
+    }
+    ageElement.textContent = age;
+  }
+  // ⭐⭐ END OF AGE CODE ⭐⭐
+
+  
+  
   /**
    * Mobile nav toggle
    */
